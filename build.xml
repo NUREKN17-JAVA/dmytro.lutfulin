@@ -41,7 +41,12 @@
 			<pathelement location="${build-dir}"/>
 			</classpath>
 			<formatter type="plain"/>
-		<test name="dima.lutfulin.UserTest"></test>
+			
+			<batchtest todir="${basedir}" fork="yes">
+			        	      <fileset dir="${test-java-dir}">
+			        	         <include name="**/*Test.java"/>
+			        	      </fileset>            
+			        	  </batchtest>
 		</junit>
 	</target>
 	</junit>
