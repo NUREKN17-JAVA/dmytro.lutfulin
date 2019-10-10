@@ -6,6 +6,7 @@ out/
 vladyslav.raniuk.iml
 
 
+# Package Files #
 *.jar
 *.war
 *.ear
