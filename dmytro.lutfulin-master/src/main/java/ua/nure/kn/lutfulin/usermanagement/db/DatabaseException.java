@@ -1,4 +1,4 @@
-package ua.nure.kn.kutovoy.usermanagment.db;
+package ua.nure.kn.lutfulin.usermanagment.db;
 
 import java.sql.SQLException;
 
