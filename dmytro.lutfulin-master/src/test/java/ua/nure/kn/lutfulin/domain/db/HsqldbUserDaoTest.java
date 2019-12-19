@@ -8,7 +8,7 @@ import org.dbunit.database.IDatabaseConnection;
 import org.dbunit.dataset.IDataSet;
 
 import junit.framework.TestCase;
-import ua.nure.kn.panasiuk.domain.User;
+import ua.nure.kn.lutfulin.domain.User;
 
 
 public class HsqldbUserDaoTest extends TestCase {
@@ -16,7 +16,7 @@ public class HsqldbUserDaoTest extends TestCase {
 	private User user;
 	private static final long TEST_ID = 1001L;
     private static final String FIRST_NAME = "Aleksandr";
-    private static final String LAST_NAME = "Panasiuk";
+    private static final String LAST_NAME = "lutfulin";
 	private static final Long ID = 4L;
 	
 	private UserDao userDao;
@@ -48,7 +48,7 @@ public class HsqldbUserDaoTest extends TestCase {
 	public void testCreate() throws DatabaseException {
 		User user = new User();
         user.setFirstName("Aleksandr");
-        user.setLastName("Panasiuk");
+        user.setLastName("lutfulin");
         user.setFirstName(FIRST_NAME);
         user.setLastName(LAST_NAME);
         user.setDateOfBirthd(new Date());

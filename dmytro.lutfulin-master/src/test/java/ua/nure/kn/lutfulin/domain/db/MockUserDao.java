@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import ua.nure.kn.panasiuk.domain.User;
+import ua.nure.kn.lutfulin.domain.User;
 
 public class MockUserDao implements UserDao {
 	private long id = 0;

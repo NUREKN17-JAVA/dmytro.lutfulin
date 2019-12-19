@@ -1,8 +1,8 @@
 package ua.nure.kn.lutfulin.domain.db;
 
 import junit.framework.TestCase;
-import ua.nure.kn.panasiuk.domain.db.DaoFactory;
-import ua.nure.kn.panasiuk.domain.db.UserDao;
+import ua.nure.kn.lutfulin.domain.db.DaoFactory;
+import ua.nure.kn.lutfulin.domain.db.UserDao;
 
 public class DaoFactoryTest extends TestCase {
 
