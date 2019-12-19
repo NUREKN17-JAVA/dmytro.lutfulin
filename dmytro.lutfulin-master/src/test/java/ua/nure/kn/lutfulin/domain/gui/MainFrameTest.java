@@ -23,10 +23,10 @@ import junit.extensions.jfcunit.eventdata.MouseEventData;
 import junit.extensions.jfcunit.eventdata.StringEventData;
 import junit.extensions.jfcunit.finder.DialogFinder;
 import junit.extensions.jfcunit.finder.NamedComponentFinder;
-import ua.nure.kn.panasiuk.domain.db.MockDaoFactory;
-import ua.nure.kn.panasiuk.domain.User;
-import ua.nure.kn.panasiuk.domain.db.DaoFactory;
-import ua.nure.kn.panasiuk.domain.util.Messages;
+import ua.nure.kn.lutfulin.domain.db.MockDaoFactory;
+import ua.nure.kn.lutfulin.domain.User;
+import ua.nure.kn.lutfulin.domain.db.DaoFactory;
+import ua.nure.kn.lutfulin.domain.util.Messages;
 
 public class MainFrameTest extends JFCTestCase {
 

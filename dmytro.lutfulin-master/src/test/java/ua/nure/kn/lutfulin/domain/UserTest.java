@@ -1,14 +1,14 @@
 ﻿package ua.nure.kn.lutfulin.domain;
 
 import junit.framework.TestCase;
-import ua.nure.kn.panasiuk.domain.User;
+import ua.nure.kn.lutfulin.domain.User;
 
 import java.util.Calendar;
 
 public class UserTest extends TestCase {
 
-	private static final String ETALONE_FULL_NAME = "Panasiuk, Aleksandr";
-	private static final String ETALONE_SURNAME = "Panasiuk";
+	private static final String ETALONE_FULL_NAME = "lutfulin, Dmytro";
+	private static final String ETALONE_SURNAME = "lutfulin";
 	private static final String ETALONE_NAME = "Aleksandr";
 	private static final int ETALONE_MONTH = Calendar.FEBRUARY;
 	private static final int ETALONE_DATE = 18;
